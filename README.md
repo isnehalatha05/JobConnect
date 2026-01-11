@@ -11,4 +11,4 @@
 ![Employer Dashboard](screenshots/employer_dashboard.png)
 
 ### Post Job Page
-![Post Job Page](screenshots/job_post.png)
+![Job Post Page](screenshots/job_post.png)
