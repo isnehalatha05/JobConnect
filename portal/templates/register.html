@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <h3 class="mb-3">Register</h3>
+        <form method="post">
+            {% csrf_token %}
+            <input name="username" class="form-control mb-2" placeholder="Username" required>
+            <input type="password" name="password" class="form-control mb-2" placeholder="Password" required>
+            <select name="role" class="form-control mb-2" required>
+                <option value="">Select Role</option>
+                <option value="seeker">Job Seeker</option>
+                <option value="employer">Employer</option>
+            </select>
+            <button class="btn btn-primary w-100">Register</button>
+        </form>
+        <p class="mt-2 text-center">Already have an account? <a href="{% url 'login' %}">Login</a></p>
+    </div>
+</div>
+{% endblock %}
