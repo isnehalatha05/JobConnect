@@ -48,9 +48,5 @@ type nul > README.md
 ![Employer Dashboard](screenshots/employer_dashboard.png)
 
 **Seeker Dashboard**  
-<<<<<<< HEAD
-![Seeker Dashboard](screenshots/login_page.png)
 
-=======
 ![Seeker Dashboard](screenshots/login_page.png)
->>>>>>> e351436 (Add screenshots to README)
