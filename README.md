@@ -1,4 +1,3 @@
-
 ## 📸 Screenshots
 
 ### Home Page
@@ -11,4 +10,5 @@
 ![Employer Dashboard](screenshots/employer_dashboard.png)
 
 ### Post Job Page
-![Job Post Page](screenshots/job_post.png)
+![Post Job Page](screenshots/post_job.png)
+
