@@ -34,3 +34,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+type nul > README.md
+## Screenshots
+
+**Home Page**  
+![Home Page](screenshots/home_page.png)
+
+**Post Job Page**  
+![Post Job](screenshots/job_post.png)
+
+**Employer Dashboard**  
+![Employer Dashboard](screenshots/employer_dashboard.png)
+
+**Seeker Dashboard**  
+![Seeker Dashboard](screenshots/login_page.png)
+
